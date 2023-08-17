@@ -17,8 +17,19 @@ public class EjercicioWhIle01 {
 
         System.out.println("");
 
-        for(var contando = 0; contando < 7; contando++){
-            System.out.println("contando = " + contando);
+        for(var c = 0; c < 7; c++){
+            if(c % 2 == 0){
+                 System.out.println("contando = " + c);
+                 break;
+            }
         }
+
+        for(var c = 0; c < 7; c++){
+            if(c % 2 != 0){
+                continue;
+            }
+         System.out.println("contando = " + c);
+        }
+
     }
 }
