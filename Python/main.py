@@ -31,3 +31,29 @@ print(len(nombres)) # Le pasamos como parametro la lista
 # Agregamos un elemento
 nombres.append('Marcelo')
 print(nombres)
+
+# Insertar un elemento en un indice especifico
+nombres.insert(1, 'Alberto')
+print(nombres)
+nombres.insert(3, 'Debora')
+print(nombres)
+
+# Eliminamos un elemento
+nombres.remove('Alberto')
+print(nombres)
+
+# Eliminar el ultimo elemento
+nombres.pop()
+print(nombres)
+
+# Eliminar un indice especifico
+del nombres[2]
+print(nombres)
+
+# Eliminar todos los elementos
+nombres.clear()
+print(nombres)
+
+# Eliminar la lista
+del nombres
+print(nombres)
